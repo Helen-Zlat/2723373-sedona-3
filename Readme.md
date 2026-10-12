@@ -2,6 +2,7 @@
 
 * Студент: [Елена Куликова](https://up.htmlacademy.ru/htmlcss-individual/3/user/2723373).
 * Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
+* Сайт: [Мой проект Седона](https://helen-zlat.github.io/2723373-sedona-3/).
 
 ---
 
