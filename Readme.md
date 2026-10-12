@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Елена Куликова](https://up.htmlacademy.ru/htmlcss-individual/3/user/2723373).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
 
 ---
 
