@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: black;
+  background-color: white;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-link-current {
+  text-decoration: underline;
+}
+
+.page-main {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.welcome {
+  background-image: url(../images/background/index-background-tie.svg), url(../images/background/index-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.advantages,
+.recommendations,
+.hotel-search,
+.footer-contacts {
+  text-align: center;
+}
+
+.advantages-section-title,
+.recommendations-section-title,
+.hotel-search-title {
+  color: #000000;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-section-description,
+.recommendations-section-description,
+.hotel-search-description {
+  color: #333333;
+}
+
+.advantages-item,
+.recommendations-item {
+  background-color: #83B3D31F;
+}
+
+.advantages-item-image {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.advantages-title,
+.recommendations-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-description,
+.recommendations-description,
+.select-control,
+.hotel-card-type,
+.hotel-card-price {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-item-accent {
+  background-color: #83B3D333;
+}
+
+.recommendations-item-food {
+  background-color: #FFFFFF;
+}
+
+.hotel-search-button,
+.newsletter-button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+
+.hotel-search-button {
+  background-color: #756157;
+}
+
+.newsletter-with-background {
+  background-image: url(../images/background/index-footer-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.newsletter-title,
+.hotels-catalog-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.newsletter-button {
+  background-color: #82B3D3;
+}
+
+.field {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #F2F2F2;
+  border: none;
+}
+
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.filtration-background {
+  background-image: url(../images/background/filtration-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.content-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-group {
+  border: none;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filter-button,
+.product-card-button,
+.product-card-favorite-button {
+  font-family: inherit;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+.filter-button-submit {
+  background-color: #82B3D3;
+}
+
+.filter-button-reset {
+  background-color: transparent;
+}
+
+.select-control {
+  font-family: inherit;
+}
+
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.product-card-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.product-card-button {
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.product-card-favorite-button {
+  background-color: #82B3D3;
+}
+
+.product-card-favorite-button-selected {
+  background-color: #7DB54F;
+}
+
+.rating-value {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+
+.pagination-item {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.pagination-link {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.newsletter {
+  text-align: center;
+}
